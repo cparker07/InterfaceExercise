@@ -4,7 +4,9 @@ using System.Text;
 
 namespace InterfaceExercise
 {
-    interface ICompany
+    public interface ICompany
     {
+        public string CompanyName { get; set; }
+        public string Logo { get; set; }
     }
 }
